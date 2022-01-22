@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@presta-example/cloudflare-workers",
+  "scripts": {
+    "start": "presta dev",
+    "build": "presta",
+    "serve": "wrangler dev"
+  },
+  "dependencies": {
+    "@presta/html": "^0.2.3",
+    "presta": "^0.44.1"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.7",
+    "@presta/adapter-cloudflare-workers": "^0.1.0"
+  },
+  "version": null
+}
